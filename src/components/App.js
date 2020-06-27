@@ -6,11 +6,11 @@ class App extends React.Component{
 
     render(){
         return(
-            <diV>
+            <div>
             <h3>Item lists</h3>
             <Form />
             <ItemList />
-            </diV>
+            </div>
             
         );
     }
