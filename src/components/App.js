@@ -5,7 +5,6 @@ import ItemList from './ItemList';
 class App extends React.Component{
 
     render(){
-
         return(
             <diV>
             <h3>Item lists</h3>
