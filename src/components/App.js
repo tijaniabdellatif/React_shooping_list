@@ -1,4 +1,6 @@
 import React from 'react';
+import Form from './Form';
+import ItemList from './ItemList';
 
 class App extends React.Component{
 
@@ -7,7 +9,8 @@ class App extends React.Component{
         return(
             <diV>
             <h3>Item lists</h3>
-            <div>Waiting for Build</div>
+            <Form />
+            <ItemList />
             </diV>
             
         );
